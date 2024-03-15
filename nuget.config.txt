@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <config>
+        <add key="globalPackagesFolder" value=".\packages" />
+    </config>
+    <packageSources>
+        <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+        <add key="KantimeNugetFeed" value="https://dev-nexus.kantime.app/repository/kt-commons" />
+    </packageSources>
+    <packageSourceCredentials>
+        <KantimeNugetFeed>
+            <add key="Username" value="kt-automation" />
+            <add key="ClearTextPassword" value="healthcare_123" />
+        </KantimeNugetFeed>
+    </packageSourceCredentials>
+</configuration>
